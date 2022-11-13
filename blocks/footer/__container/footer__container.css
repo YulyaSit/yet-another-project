@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: auto;
+  margin: 0 auto;
   padding-top: 92px;
   padding-bottom: 24px;
 }
@@ -11,22 +11,13 @@
 @media screen and (max-width: 1279px) {
   .footer__container {
     max-width: 928px;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    padding-top: 92px;
-    padding-bottom: 24px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .footer__container {
     max-width: 720px;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
     padding-top: 88px;
-    padding-bottom: 24px;
   }
 }
 
@@ -35,8 +26,6 @@
     max-width: 186px;
     display: flex;
     flex-direction: column;
-    margin: auto;
-    padding-top: 88px;
     padding-bottom: 24px;
     margin-left: 16px;
   }

@@ -1,9 +1,13 @@
 .place__url-heading {
-  display: block;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
   color: #AAAAAA;
   margin-bottom: 12px;
+}
+
+.place__url-heading:hover {
+  opacity: .5;
+  transition: opacity .3s;
 }

@@ -1,28 +1,5 @@
-.place__container {
-  max-width: 484px;
-  width: 100%;
-}
-
-@media screen and (max-width: 1279px) {
-  .place__container {
-    max-width: 456px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .place__container {
-    max-width: 352px;
-    min-height: 420px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .place__container {
-    max-width: 288px;
-    max-height: 490px;
-  }
-  .place__container:nth-last-of-type(4) {
-    max-width: 288px;
-    max-height: 470px;
+    grid-area: place__container;
   }
 }

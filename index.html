@@ -12,8 +12,8 @@
       <div class="header__container">
         <img class="header__logo" src="./images/header-logo.svg" alt="Карта России">
         <div class="header__links">
-          <nav class="header__lang-link">Ru</nav>
-          <nav class="header__lang-link">En</nav>
+          <a class="header__lang-link header__lang-link_active" href="#"><nav class="header__lang-link">Ru</nav></a>
+          <a class="header__lang-link" href="#"><nav class="header__lang-link">En</nav></a>
       </div>
       </div>
     </header>
@@ -56,7 +56,7 @@
         <div class="place">
           <h2 class="place__title">Куршская      коса</h2>
           <div class="place__website">
-            <span class="place__url-heading">URL</span>
+            <span class="place__url-heading">url</span>
             <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/__image.jpg" alt="Куршский залив">
@@ -70,7 +70,7 @@
         <div class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <span class="place__url-heading">URL</span>
+            <span class="place__url-heading">url</span>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank">National Geographic</a>
           </div>
           <img class="place__image" src="./images/kolskiy__image.jpg" alt="Кольский">
@@ -84,7 +84,7 @@
         <div class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <span class="place__url-heading">URL</span>
+            <span class="place__url-heading">url</span>
             <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" target="_blank">Facebook</a>
           </div>
           <img class="place__image" src="./images/altai__image.jpg" alt="Алтай">
@@ -98,7 +98,7 @@
         <div class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <span class="place__url-heading">URL</span>
+            <span class="place__url-heading">url</span>
             <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="./images/zimniy-baikal__image.jpg" alt="Фото зимнего Байкала">
@@ -111,7 +111,7 @@
         <div class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <span class="place__url-heading">URL</span>
+            <span class="place__url-heading">url</span>
             <a href="http://vodlozero.ru" class="place__link" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./images/kareliya__image.jpg" alt="Карелия">
@@ -122,22 +122,24 @@
         </div>
       </section>
       <section class="cover">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank"><img class="cover__background cover__overlay" src="./images/__background.jpg" alt="Железная дорога"></a>
-        <div class="cover__center-title">
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank"><h2 class="cover__title">До Байкала «на собаках»</h2></a>
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank"><p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p></a>
-        </div>
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link cover__background" target="_blank">
+          <div class="cover__center-title">
+            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          </div>
+          <div class="cover__overlay"></div>
+        </a>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__container">
-        <div class="footer__links">
+        <nav class="footer__links">
           <a  href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a>
           <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
           <a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a>
           <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
           <a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
-        </div>
+        </nav>
         <p class="footer__copyright">&copy; 2020. Ситникова Юлия</p>
       </div>
     </footer>

@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  .footer {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .footer {
+    align-self: baseline;
+  }
+}

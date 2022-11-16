@@ -5,7 +5,19 @@
   max-width: 30px;
 }
 
-.header__lang-link:first-of-type {
-  text-decoration-line: underline;
-  margin-right: 18px;
+.header__lang-link:last-of-type {
+  color: white;
+  text-decoration: none;
+}
+
+.header__lang-link:last-of-type:hover {
+  opacity: .8;
+  transition: opacity .3s;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

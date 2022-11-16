@@ -1,4 +1,29 @@
 .cover__background {
-  grid-column: 1/2;
-  grid-row: 1/2;
+  background-image: url(../../../images/__background.jpg);
+  width: 1184px;
+  height: 740px;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__background {
+    width: 1024px;
+    height: 640px;
+    background-image: url(../../../images/ddfffffffffffffff.jpg);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__background {
+    background-image: url(../../../images/__background768.jpg);
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__background {
+    background-image: url(../../../images/__background320.jpg);
+    width: 320px;
+    height: 200px;
+  }
 }

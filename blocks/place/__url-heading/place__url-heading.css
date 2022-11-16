@@ -5,9 +5,5 @@
   letter-spacing: 2px;
   color: #AAAAAA;
   margin-bottom: 12px;
-}
-
-.place__url-heading:hover {
-  opacity: .5;
-  transition: opacity .3s;
+  text-transform: uppercase;
 }

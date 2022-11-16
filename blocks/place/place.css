@@ -26,7 +26,6 @@
 
 @media screen and (max-width: 767px) {
   .place {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: max-content;
     margin-bottom: 50px;
@@ -35,6 +34,6 @@
     "place__title"
     "place__website"
     "place__image"
-    "place__container"
+    "place__container";
   }
 }

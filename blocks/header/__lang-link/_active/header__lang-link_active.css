@@ -1,0 +1,9 @@
+.header__lang-link_active {
+  margin-right: 18px;
+  color: white;
+}
+
+.header__lang-link_active:hover {
+  opacity: .8;
+  transition: opacity .3s;
+}

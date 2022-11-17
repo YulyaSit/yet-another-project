@@ -4,14 +4,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-}
-
-.place__paragraph:first-of-type {
   margin-bottom: 26px;
 }
-
 @media screen and (max-width: 1279px) {
-  .place__paragraph:first-of-type {
+  .place__paragraph {
     margin-bottom: 27px;
   }
 }
@@ -20,15 +16,17 @@
   .place__paragraph {
     font-size: 16px;
   }
-  .place__paragraph:first-of-type {
+  .place__paragraph {
     margin-bottom: 25px;
+  }
+  .place__paragraph:last-of-type {
+    margin-bottom: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
     max-width: 288px;
-    font-size: 16px;
     margin-left: 16px;
   }
 }

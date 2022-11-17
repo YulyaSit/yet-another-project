@@ -1,13 +1,15 @@
 .cover__background {
   background-image: url(../../../images/__background.jpg);
   width: 1184px;
-  height: 740px;
+  min-height: 740px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @media screen and (max-width: 1279px) {
   .cover__background {
     width: 1024px;
-    height: 640px;
+    min-height: 640px;
     background-image: url(../../../images/ddfffffffffffffff.jpg);
   }
 }
@@ -16,7 +18,7 @@
   .cover__background {
     background-image: url(../../../images/__background768.jpg);
     width: 768px;
-    height: 480px;
+    min-height: 480px;
   }
 }
 
@@ -24,6 +26,6 @@
   .cover__background {
     background-image: url(../../../images/__background320.jpg);
     width: 320px;
-    height: 200px;
+    min-height: 200px;
   }
 }

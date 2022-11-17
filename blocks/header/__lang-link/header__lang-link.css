@@ -5,12 +5,16 @@
   max-width: 30px;
 }
 
+.header__lang-link:first-of-type {
+  margin-right: 18px;
+}
+
 .header__lang-link:last-of-type {
   color: white;
   text-decoration: none;
 }
 
-.header__lang-link:last-of-type:hover {
+.header__lang-link:hover {
   opacity: .8;
   transition: opacity .3s;
 }

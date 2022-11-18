@@ -3,15 +3,12 @@
   line-height: 28px;
   font-weight: 400;
   max-width: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 .header__lang-link:first-of-type {
   margin-right: 18px;
-}
-
-.header__lang-link:last-of-type {
-  color: white;
-  text-decoration: none;
 }
 
 .header__lang-link:hover {

@@ -1,6 +1,6 @@
 .cover__overlay {
-  width: 1184px;
-  min-height: 740px;
+  width: 100%;
+  min-height: 100%;
   position:absolute;
   top: 0;
   left: 0;
